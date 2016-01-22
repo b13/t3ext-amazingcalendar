@@ -1,0 +1,20 @@
+<table class="table table-condensed table-striped table-bordered">
+	<thead>
+		<tr>
+			<th>Wann</th>
+			<th>Was</th>
+			<th>Wo</th>
+			<th>&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<f:for each="{events}" as="event">
+			<tr>
+				<td><f:format.date format="%d. %B %H:%M">{event.start}</f:format.date> Uhr</td>
+				<td>{event.SUMMARY}</td>
+				<td><f:if condition="{event.location}"><i>{event.location}</i></f:if></td>
+				<td><f:if condition="{event.DESCRIPTION}">{event.DESCRIPTION}</f:if></td>
+			</tr>
+		</f:for>
+	</tbody>
+</table>

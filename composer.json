@@ -1,0 +1,19 @@
+{
+  "name": "b13/amazingcalendar",
+  "type": "typo3-cms-extension",
+  "description": "Simple Calendar based on external ics files for TYPO3",
+  "homepage": "https://github.com/b13/t3ext-amazingcalendar",
+  "license": ["GPLv2+"],
+  "keywords": ["TYPO3 CMS", "Calendar", "ics"],
+  "support": {
+    "issues": "https://github.com/b13/t3ext-amazingcalendar/issues"
+  },
+  "require": {
+    "typo3/cms-core": ">=6.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "B13\\Amazingcalendar\\": "Classes/"
+    }
+  }
+}

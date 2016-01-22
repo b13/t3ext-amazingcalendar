@@ -1,0 +1,28 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Kalender</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.calendarUrl>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>Kalender-URL</label>
+							<config>
+								<type>input</type>
+								<size>40</size>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.calendarUrl>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

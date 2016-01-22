@@ -1,0 +1,10 @@
+plugin.tx_amazingcalendar {
+	view {
+		templateRootPath = {$plugin.tx_amazingcalendar.view.templateRootPath}
+		partialRootPath = {$plugin.tx_amazingcalendar.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_amazingcalendar.view.layoutRootPath}
+	}
+	settings {
+		limit = 10
+	}
+}

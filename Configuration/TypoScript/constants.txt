@@ -1,0 +1,12 @@
+plugin.tx_amazingcalendar {
+	view {
+		# cat=main/file; type=string; label= Path to template root (FE)
+		templateRootPath = EXT:amazingcalendar/Resources/Private/Templates/
+
+		# cat=main/file; type=string; label= Path to template partials (FE)
+		partialRootPath = EXT:amazingcalendar/Resources/Private/Partials/
+
+		# cat=main/file; type=string; label= Path to template layouts (FE)
+		layoutRootPath = EXT:amazingcalendar/Resources/Private/Layouts/
+	}
+}
