@@ -9,6 +9,7 @@
     "issues": "https://github.com/b13/t3ext-amazingcalendar/issues"
   },
   "require": {
+    "johngrogg/ics-parser": "~1.0.0",
     "typo3/cms-core": ">=6.2.0"
   },
   "autoload": {
